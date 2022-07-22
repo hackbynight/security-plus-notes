@@ -1,7 +1,5 @@
-# CompTia Sec+ 2022 exam notes
 
-Collection of personal study materials for all 4 domains of 2022 comptia sec+ exam
-
+<pre>
 1.  Attack Vectors
   1.1   Direct Access
   1.2   Wireless
@@ -253,3 +251,4 @@ Collection of personal study materials for all 4 domains of 2022 comptia sec+ ex
     7.6.9   Pivoting
     7.6.10  Cleanup
     7.6.11  Bug Bounties
+</pre>
