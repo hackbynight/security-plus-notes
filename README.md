@@ -406,7 +406,7 @@
       TTPs are how we describe the behaviors, methods, tools, and strategies that cyber threat actors and hackers use to plan and execute cyber attacks. Often referred to as the why and how of cyber attacks.
 </pre>
 
-## Vulnerabilities by Type & Impact
+## Vulnerabilities by Type (with Impact)
 <pre>
 4.  Vulnerabilities by Type and Impact
   Vulnerabilities are flaws in a computer system that weaken the overall security of the device/system. Vulnerabilities can be weaknesses in either the hardware itself, or the software that runs on the hardware. Vulnerabilities can be exploited by a threat actor, such as an attacker, to cross privilege boundaries (i.e. perform unauthorized actions) within a computer system. To exploit a vulnerability, an attacker must have at least one applicable tool or technique that can connect to a system weakness. In this frame, vulnerabilities are also known as the attack surface.
