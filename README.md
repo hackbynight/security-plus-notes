@@ -5,7 +5,17 @@
 
 CompTia Security Plus
 
-1. Attack Vectors  
+1. [ Attack Vectors ](#vectors)
+2. [ Threat Actors ](#actors)
+3. [ Research and Cyber Threat Intelligence ](#research)
+4. [ Vulnerabilities by Type and Impact ](#vulnerabilities)
+5. [ Attacks by Type ](#attacks)
+6. [ Social Engineering ](#social)
+7. [ Security Operations ](#operations)
+
+
+<a name="vectors"></a>
+## 1. Attack Vectors  
 In computer security, an attack vector is a specific path, method, or scenario that can be exploited to break into an IT system, thus compromising its security. An attack vector may be exploited manually, automatically, or through a combination of manual and automatic activity. 
 Often, this is a multi-step process. For instance, malicious code, I E code that the user did not consent to being run and that performs actions the user would not consent to, often operates by being added to a harmless seeming document made available to an end user. When the unsuspecting end user opens the document, the malicious code in question, known as the payload, is executed and performs the abusive tasks it was programmed to execute. These tasks may include things such as spreading itself further, opening up unauthorized access to the IT system, stealing or encrypting the user's documents, and more. In order to limit the chance of discovery once installed, the code in question is often obfuscated by layers of seemingly harmless code. 
    
@@ -21,7 +31,7 @@ Often, this is a multi-step process. For instance, malicious code, I E code that
    
     5. The attack vectors that the comp teaya 20 22 security + exam wants you to be familiar with include direct access, wireless, e mail, removable media, social media, cloud systems, and supply chains. 
    
-   ```
+   
     1.1   Direct Access 
     Direct access encomposes attack methods where the hacker gains physical access to facilities, hardware, and infrastructure. When the attacker has direct access it can be trivial to infect devices and systems. Common attacks inlude keylogger equipment and malware, malicious flash drive payloads, and well-hidden network or data capture software and systems. The lead countermeasure that your exam will ask you to identify is, physical security. 
    
@@ -47,7 +57,8 @@ Often, this is a multi-step process. For instance, malicious code, I E code that
     The supply chain vector refers to attacks on vendors in an organizations supply chain, sometimes as a precursor to direct attack. While supply chain attacks are covered in great depth later in this course, for now it is sufficient to know that the lead countermeasure of this vector will be vendor screening. 
     ```
    
-  2   Threat Actors  
+  <a name="actors"></a>
+## 2   Threat Actors  
     A threat actor or malicious actor is either a person or a group of people that take part in an action that is intended to cause harm to the cyber realm. This realm includes; computers, devices, systems, or networks. The term is typically used to describe individuals or groups that perform malicious acts against a person or an organization of any type or size. Threat actors engage in cyber related offenses to exploit open vulnerabilities and disrupt operations. Threat actors have different educational backgrounds, skills, and resources. The frequency and classification of cyber attacks changes rapidly. The background of threat actors helps dictate who they target, how they attack, and what information they seek. There are a number of threat actors including: cyber criminals, nation-state actors, ideologues, often referred to as hacktivists, thrill seekers and trolls, insiders, and competitors. These threat actors all have distinct motivations, techniques, targets, and uses of stolen data. To prepare you for your security + exam, these threat actors are broken up into nine categories commonly used by comp teaya; Hackers, A P tees, insider threats, state actors, hacktivists, criminal organizations, shadow I T, business competitors, and everyones favorite; script kiddies. Each threat actor can have a set of main pulling factors, or attributes. The four common to the security + exam are; internal and external, sophistication and capability, resources and funding, and intent and motivation. 
    
     2.2   Hackers 
@@ -83,7 +94,8 @@ Often, this is a multi-step process. For instance, malicious code, I E code that
     2.10  Script kiddies 
       Script kiddies are often broken into two categeories; thrill seekers and trolls. And while the language and premise may sound silly, these threat actors can do serious damage and are highly unpredictable. A thrill seeker is a type of threat actor that attacks a system for the sole purpose of experimentation.[3] Thrill seekers are interested in learning more about how computer systems and networks operate and want to see how much data they can infiltrate within a computer system. While they do not aim to cause major damage, they can cause problems to an organization's system. As time has gone on, thrill seekers have evolved into modern trolls. Similar to thrill seekers, a troll is a type of person or group that attacks a system for recreation. However, unlike thrill seekers, trolls aim to cause malice.[2] Modern day trolls can cause both misinformation and direct harm. 
    
-  3.  Research and Cyber Threat Intelligence 
+  <a name="research"></a>
+## 3.  Research and Cyber Threat Intelligence 
         Cyber threat intelligence (CTI) is knowledge, skills and experience-based information concerning the occurrence and assessment of both cyber and physical threats and threat actors that is intended to help mitigate potential attacks and harmful events occurring in cyberspace.[1] Cyber threat intelligence sources include open source intelligence, social media intelligence, human Intelligence, technical intelligence, device log files, forensically acquired data or intelligence from the internet traffic and data derived for the deep and dark web. 
    
         In recent years, threat intelligence has become a crucial part of companies cyber security strategy since it allows companies to be more proactive in their approach and determine which threats represent the greatest risks to a business. This puts companies on a more proactive front - actively trying to find their vulnerabilities and prevents hacks before they happen.[2] This method is gaining importance in recent years since, as IBM estimates, the most common method companies are hack is via threat exploitation (47% of all attacks)[3] 
@@ -147,7 +159,8 @@ Often, this is a multi-step process. For instance, malicious code, I E code that
       3.2.8   Adversary tactics, techniques, and procedures (TTP)  
         TTPs are how we describe the behaviors, methods, tools, and strategies that cyber threat actors and hackers use to plan and execute cyber attacks. Often referred to as the why and how of cyber attacks.  
     
-  4.  Vulnerabilities by Type and Impact  
+  <a name="vulnerabilities"></a>
+## 4.  Vulnerabilities by Type and Impact  
     Vulnerabilities are flaws in a computer system that weaken the overall security of the device/system. Vulnerabilities can be weaknesses in either the hardware itself, or the software that runs on the hardware. Vulnerabilities can be exploited by a threat actor, such as an attacker, to cross privilege boundaries (i.e. perform unauthorized actions) within a computer system. To exploit a vulnerability, an attacker must have at least one applicable tool or technique that can connect to a system weakness. In this frame, vulnerabilities are also known as the attack surface.  
     
     Vulnerability management is a cyclical practice that varies in theory but contains common processes which include: discover all assets, prioritize assets, assess or perform a complete vulnerability scan, report on results, remediate vulnerabilities, verify remediation - repeat. This practice generally refers to software vulnerabilities in computing systems.[1] Agile vulnerability management refers preventing attacks by identifying all vulnerabilities as quickly as possible.[2]  
@@ -209,7 +222,8 @@ Often, this is a multi-step process. For instance, malicious code, I E code that
       4.7.6   Financial Loss  
         And of course, all of these vulnerabilities can result in general financial loss to the company or organization.  
     
-  5.  Attacks by Type  
+  <a name="attacks"></a>
+## 5.  Attacks by Type  
   ```
     5.1   Malware  
       Malware (a portmanteau for malicious software) is any software intentionally designed to cause disruption to a computer, server, client, or computer network, leak private information, gain unauthorized access to information or systems, deprive users access to information or which unknowingly interferes with the user's computer security and privacy.[1][2][3][4] By contrast, software that causes harm due to some deficiency is typically described as a software bug.[5] Malware poses serious problems to individuals and businesses on the Internet.[6][7] According to Symantec’s 2018 Internet Security Threat Report (ISTR), malware variants number has increased to 669,947,865 in 2017, which is twice as many malware variants as in 2016.[8] Cybercrime, which includes malware attacks as well as other crimes committed by computer, was predicted to cost the world economy 6 trillion dollars in 2021, and is increasing at a rate of 15% per year.[9]  
@@ -396,7 +410,8 @@ Often, this is a multi-step process. For instance, malicious code, I E code that
 ```
   
 
-  6. Social Engineering  
+  <a name="social"></a>
+## 6. Social Engineering  
     Social engineering is the psychological manipulation of people into performing actions or divulging confidential information. This differs from social engineering within the social sciences, which does not concern the divulging of confidential information. A type of confidence trick for the purpose of information gathering, fraud, or system access, it differs from a traditional "con" in that it is often one of many steps in a more complex fraud scheme.[1]  
     
     It has also been defined as "any act that influences a person to take an action that may or may not be in their best interests."[2]  
@@ -476,7 +491,8 @@ Often, this is a multi-step process. For instance, malicious code, I E code that
       6.4.2   Social media  
         May use multiple social platforms leveraging multiple/many individuals to amplify the message, influencing credibility. May involve creating multiple fake accounts to post content and seed the spread.  
     
-  7.  Security Operations  
+  <a name="operations"></a>
+## 7.  Security Operations  
   ```
     7.1   Red Team  
       Red team members are the offensive arm of security operations. They are internal or external entities dedicated to testing the effectiveness of a security program by emulating the tools and techniques of likely attackers in the most realistic way possible.  
