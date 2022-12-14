@@ -1,3 +1,8 @@
+```diff
+- *Excuse the spelling errors, compiled with voice to text software*
+```
+
+
 CompTia Security Plus
 
 1. Attack Vectors  
