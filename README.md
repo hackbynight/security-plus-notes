@@ -1,5 +1,6 @@
 ```diff
-- Excuse a few spelling errors, some sections compiled with voice to text software*
+- Some sections compiled with voice to text software  
+- So there are one or two funny spelling errors. Whoops
 ```
 
 
