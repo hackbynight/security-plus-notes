@@ -1,5 +1,5 @@
 ```diff
-- *Excuse the spelling errors, compiled with voice to text software*
+- *Excuse the spelling errors, some sections compiled with voice to text software*
 ```
 
 
