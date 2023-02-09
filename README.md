@@ -1,6 +1,6 @@
 ```diff
 - Some sections compiled with voice to text software  
-- So there are one or two funny spelling errors. Whoops
+- So there are one or two funny spelling errors
 ```
 
 
